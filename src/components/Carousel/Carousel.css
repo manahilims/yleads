@@ -1,0 +1,35 @@
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.alignNextBtns {
+  display: flex;
+  z-index: 1111111111 !important;
+  /* align-items: center; */
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  margin-right: 30px;
+  margin-bottom: 40px;
+}
+
+.btn-next {
+  width: 4.9vw;
+  height: 4.9vw;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  margin-right: 20px;
+  opacity: 0.6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  cursor: pointer;
+}

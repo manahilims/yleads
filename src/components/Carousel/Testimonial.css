@@ -1,0 +1,32 @@
+.figure-container {
+  width: 100%;
+  height: 100vh;
+  height: auto;
+  position: relative;
+}
+.figure-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.3);
+}
+.testimonial-bg {
+  height: 100vh;
+}
+
+.figure-review {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 65px !important;
+  z-index: 2;
+  margin: 0 20px;
+}
+
+.medium-txt-align {
+}
+.figure-name {
+}

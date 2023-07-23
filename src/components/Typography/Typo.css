@@ -1,0 +1,34 @@
+.typo-semibold {
+  font-weight: 600;
+  /* color: var(--white-color); */
+}
+.typo-medium {
+  font-weight: 500;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+.typo-regular {
+  font-weight: 400;
+}
+
+/* colors */
+.c-white {
+  color: var(--white-color);
+}
+
+/* fontsize */
+.fs-44 {
+  font-size: 44px;
+}
+.fs-34 {
+  font-size: 34px;
+}
+.fs-22 {
+  font-size: 1.43vw;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-20 {
+  font-size: 20px;
+}
